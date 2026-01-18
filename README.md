@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio - Rohaz Shaik
 
-## Getting Started
+A modern, interactive portfolio website showcasing full-stack development projects with a focus on MERN stack, AI/ML integration, and scalable web applications.
 
-First, run the development server:
+## 🚀 Features
+
+- **3D Interactive Gallery**: Toggle-able 3D project showcase with smooth animations
+- **Dynamic Project Pages**: Detailed project information with live demos, video embeds, and architecture diagrams
+- **Responsive Design**: Fully responsive layout optimized for all devices
+- **Modern UI/UX**: Glassmorphism effects, smooth transitions, and engaging animations
+- **Performance Optimized**: Built with Next.js 14 for optimal performance
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 (React 18)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion, GSAP
+- **3D Graphics**: Three.js (via React Three Fiber)
+- **Typography**: Roboto, Instrument Serif
+- **Diagrams**: Mermaid.js
+
+## 📦 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/rohazshaik/Portofolio.git
+
+# Navigate to project directory
+cd Portofolio
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Key Sections
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Hero**: Professional introduction with animated text effects
+- **Projects**: Featured projects with interactive 3D gallery
+- **Tech Stack**: Skills and technologies organized by category
+- **Experience**: Professional work history and internships
+- **Contact**: Direct links to email and social profiles
 
-## Learn More
+## 📱 Projects Featured
 
-To learn more about Next.js, take a look at the following resources:
+- AI Document Search System (RAG Chatbot)
+- AI-Powered Query Generator
+- DocSpot - Healthcare Appointment System
+- Virtual E-Commerce Website
+- Punchers Gesture Control
+- LinkGuard - AI Phishing Detector
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Live Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Visit the live portfolio: [Your Portfolio URL]
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is open source and available under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📧 Contact
+
+- **Email**: shaikrohaz@gmail.com
+- **LinkedIn**: [Your LinkedIn Profile]
+- **GitHub**: [@rohazshaik](https://github.com/rohazshaik)
+
+---
+
+Built with ❤️ by Rohaz Shaik
