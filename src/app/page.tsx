@@ -193,7 +193,7 @@ const SkillTicker = () => {
 
 export default function PortfolioPage() {
   const [currentTime, setCurrentTime] = useState("");
-  const [showGallery, setShowGallery] = useState(false);
+  const [showGallery, setShowGallery] = useState(true);
   const mainContentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -232,7 +232,7 @@ export default function PortfolioPage() {
           <div className="relative w-10 h-10 rounded-full overflow-hidden border border-zinc-800 p-0.5 group">
             <div className="w-full h-full rounded-full overflow-hidden bg-zinc-900 relative">
               <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Profile-1766139448539.jpeg?width=800&height=800&resize=contain"
+                src="/profile-new.png"
                 alt=""
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500" />
@@ -246,11 +246,7 @@ export default function PortfolioPage() {
               <Home className="w-5 h-5" />
             </button>
           </Tooltip>
-          <Tooltip text="GALLERY">
-            <button onClick={() => setShowGallery(!showGallery)} className="text-zinc-600 hover:text-white transition-colors">
-              <Images className="w-5 h-5" />
-            </button>
-          </Tooltip>
+
           <Tooltip text="PROJECTS">
             <button onClick={() => scrollToSection("projects")} className="text-zinc-600 hover:text-white transition-colors">
               <Briefcase className="w-5 h-5" />
@@ -309,7 +305,7 @@ export default function PortfolioPage() {
             <div className="relative w-48 h-48 lg:w-72 lg:h-72 shrink-0">
               <PixelGridReveal>
                 <Image
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Profile-1766139448539.jpeg?width=800&height=800&resize=contain"
+                  src="/profile-new.png"
                   alt="Rohaz Shaik"
                   fill
                   className="object-cover" />
