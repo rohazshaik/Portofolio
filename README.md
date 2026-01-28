@@ -56,7 +56,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
 ## 🌐 Live Demo
 
-Visit the live portfolio: [Your Portfolio URL]
+Visit the live portfolio:  [Portofolio Live](https://portofoliorohaz.vercel.app)
 
 ## 📄 License
 
@@ -65,7 +65,7 @@ This project is open source and available under the MIT License.
 ## 📧 Contact
 
 - **Email**: shaikrohaz@gmail.com
-- **LinkedIn**: [Your LinkedIn Profile]
+- **LinkedIn**:  [@rohazshaik](https://linkdin.com/in/rohazshaik)
 - **GitHub**: [@rohazshaik](https://github.com/rohazshaik)
 
 ---
